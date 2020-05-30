@@ -1,4 +1,6 @@
 
+body { background-color: #c1c1c1}
+
 .sticky-nav {
     position: fixed;
     width: 100%;
