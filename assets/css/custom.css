@@ -7,6 +7,7 @@ main { padding-top:100px; }
 .about-2 { border-bottom: 2px solid gray; margin-bottom:20px; }
 .about-3 { text-align:center; float:none; margin:auto; }
 .about-4 { width:100%; }
+.center-col { float:none; margin:auto; }
 
 .sticky-nav {
     position: fixed;

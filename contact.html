@@ -20,7 +20,7 @@
     <header>
         <div class="sticky-nav">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-              <a class="navbar-brand" href="/"><img style="height:40px;" src="/assets/images/logo-1.png" alt="logo"></a>
+              <a class="navbar-brand" href="/"><img style="height:40px;" src="https://diembe.github.io/Responsive-Portfolio/assets/images/logo-1.png" alt="logo"></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -33,18 +33,44 @@
                   <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                   </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact</a>
                   </li>
                 </ul>
               </div>
             </nav>
           </div>
     </header>
-    <div class="row">
-        <div class="col-md-12">
-
+    <main class="">
+        <div class="row">
+            <div class="col-10 col-xs-10 col-sm-10 col-md-8 col-lg-7 col-xl-6 about-1 center-col">
+                <h1 class="about-2">Contact</h1>
+                <div class="row">
+                    <div class="col-12">
+                        <form>
+                            <div class="form-group">
+                              <label for="inputName">Name</label>
+                              <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp">
+                            </div>
+                            <div class="form-group">
+                              <label for="inputEmail">Email</label>
+                              <input type="email" class="form-control" id="inputEmail">
+                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputMessage">Message</label>
+                                <textarea class="form-control" id="inputMessage" rows="10"></textarea>
+                            </div>
+                            <div class="form-group form-check">
+                              <input type="checkbox" class="form-check-input" id="inputNewsletter">
+                              <label class="form-check-label" for="inputNewsletter">I would like to receive your bi-weekly newsletter regarding spiders</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>    
+    </main>    
 </body>
 </html>
