@@ -1,9 +1,12 @@
 
-body { background-color: #c1c1c1}
+body { background-color: #dedede}
+
+main { padding-top:100px; }
 
 .sticky-nav {
     position: fixed;
     width: 100%;
+    z-index: 99;
 }
 
 .header-image {
