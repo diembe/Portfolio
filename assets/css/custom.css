@@ -8,6 +8,9 @@ main { padding-top:100px; }
 .about-3 { text-align:center; float:none; margin:auto; }
 .about-4 { width:100%; }
 .center-col { float:none; margin:auto; }
+.p-no-margin-bot p {margin-bottom:0px;}
+.footer-justify {color: white; position:absolute; bottom:0; justify-content:center;}
+.footer-padding {padding: 5px 0;}
 
 .sticky-nav {
     position: fixed;
@@ -47,3 +50,14 @@ main { padding-top:100px; }
     padding: .575rem 2rem;
     font-size: 1.5rem;
  }
+
+ /* ===================================
+    Scroll to top
+====================================== */
+
+#scroll_to_top { cursor: pointer; }
+#scroll_to_top:hover { opacity: 0.75; }
+.scrollToTop { display: none; font-weight: bold; height: auto; padding: 0; position: fixed; right: 45px; text-align: center; text-decoration: none; top: 91%; width: auto; background-color: #000; z-index: 555; border-radius:2px; }
+.scrollToTop i { font-size: 18px; margin: 0 6px; color: #fff; }
+.scrollToTop:hover { opacity: 0.5; }
+.scrollToTop:hover i { position: relative; }
