@@ -50,65 +50,138 @@
             <div class="col-md-12">
                 <h1 class="about-2">Portfolio</h1>
                 <div class="row">
-                    <div class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+                    <div class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4" style='background-image: url("assets/images/project-1.png"); border: 10px solid white; height:250px;'>
                         <div class="row">
-                            <div class="col-12">
-                                <img class="about-4" src="https://diembe.github.io/Responsive-Portfolio/assets/images/coding-1.jpg" alt="coding photo">
-                                <!-- Photo by Lukas from Pexels -->
-                            </div>
-                            <div class="col-12 banner-1">
-                                <p class="banner-2">LAMP Stack</p>
-                            </div>
+                            <div class="col-12 banner-1" style="padding:0px;">
+                                <button class="banner-2" style="width:100%; border:none; margin-bottom:15px;" data-toggle="modal" data-target="#project1">8-Bit Bartender</button>
+							</div>
                         </div>
-                    </div>
-                    <div class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+					</div>
+					<div class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4" style='background-image: url("assets/images/code-quiz-1.png"); border: 10px solid white; height:250px;'>
                         <div class="row">
-                            <div class="col-12">
-                                <img class="about-4" src="https://diembe.github.io/Responsive-Portfolio/assets/images/pattern-3.png" alt="wordpress & drupal">
-                                <!-- Photo by gdtography from Pexels, drupal.org, wordpress.org -->
-                            </div>
-                            <div class="col-12 banner-1">
-                                <p class="banner-2">Drupal & Wordpress</p>
-                            </div>
+                            <div class="col-12 banner-1" style="padding:0px;">
+                                <button class="banner-2" style="width:100%; border:none; margin-bottom:15px;" data-toggle="modal" data-target="#code-quiz">Code Quiz</button>
+							</div>
                         </div>
-                    </div>
-                    <div class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+					</div>
+					<div class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4" style='background-image: url("assets/images/weather-screenshot-1.png"); border: 10px solid white; height:250px; background-position: left;'>
                         <div class="row">
-                            <div class="col-12">
-                                <img class="about-4" src="https://diembe.github.io/Responsive-Portfolio/assets/images/film-1.jpg" alt="film curation">
-                                <!-- Photo by Nathan Engel from Pexels -->
-                            </div>
-                            <div class="col-12 banner-1">
-                                <p class="banner-2">Film Curation Application</p>
-                            </div>
+                            <div class="col-12 banner-1" style="padding:0px;">
+                                <button class="banner-2" style="width:100%; border:none; margin-bottom:15px;" data-toggle="modal" data-target="#weather">Weather Dashboard</button>
+							</div>
                         </div>
-                    </div>
-                    <div class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-                        <div class="row">
-                            <div class="col-12">
-                                <img class="about-4" src="https://diembe.github.io/Responsive-Portfolio/assets/images/van-1.jpg" alt="van design">
-                                <!-- Photo by Alfonso Escalante from Pexels -->
-                            </div>
-                            <div class="col-12 banner-1">
-                                <p class="banner-2">Van Customization Application</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-                        <div class="row">
-                            <div class="col-12">
-                                <img class="about-4" src="https://diembe.github.io/Responsive-Portfolio/assets/images/hello-1.jpg" alt="hello world">
-                                <!-- Photo by Tyler Lastovich from Pexels -->
-                            </div>
-                            <div class="col-12 banner-1">
-                                <p class="banner-2">Hello World</p>
-                            </div>
-                        </div>
-                    </div>
+					</div>
                 </div>
             </div>
         </div>
-    </main>
+	</main>
+	
+	<!-- Modals -->
+
+	<!-- 8-bit bartender -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">8-Bit Bartender</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+			<div class="row">
+				<div class="col-md-6" style="max-height:350px; overflow:hidden;">
+					<img class="about-4" src="assets/images/project-1.png" alt="8-bit bartender">
+				</div>
+				<div class="col-md-6">
+					<h3>How to Use:</h3>
+					<ul style="padding-left:20px;">
+						<li>First type in cocktail drink of your choice and press search.</li>
+						<li>Next click on ingredients button to view what is used to make the cocktail.</li>
+						<li>Next click on nutrion button to view the nution level of the search drink.</li>
+						<li>If you want to save the drink for future viewing click save to favorites.</li>
+					</ul>
+				</div>
+			</div>
+			<a href="https://eelektrick.github.io/8-bit-bartender/">
+				<button type="button" class="btn btn-primary" style="margin-right:auto; margin-left:auto; display:block; margin-top:30px; margin-bottom:30px;">
+					Try it out here
+				</button>
+			</a>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+  <!-- Code Quiz -->
+<div class="modal fade" id="code-quiz" tabindex="-1" role="dialog" aria-labelledby="code-quiz" aria-hidden="true">
+	<div class="modal-dialog" style="max-width:700px;" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Code Quiz</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+			<div class="row">
+				<div class="col-md-6" style="max-height:350px; overflow:hidden;">
+					<img class="about-4" src="assets/images/code-quiz-1.png" alt="Code Quiz">
+				</div>
+				<div class="col-md-6">
+					<h3>How to Use:</h3>
+					<p>Code Quiz uses jQuery to dynamically generate questions & answers as you progress through the timed quiz, deducting 10 seconds of time for each wrong answer. Once the quiz is finished, the score/time remaining is marked and the player's initials can be entered to save the score to the High Score board. High scores are saved in localStorage and are persistent through different playthroughs.</p>
+				</div>
+			</div>
+			<a href="https://diembe.github.io/Code-Quiz/">
+				<button type="button" class="btn btn-primary" style="margin-right:auto; margin-left:auto; display:block; margin-top:30px; margin-bottom:30px;">
+					Try it out here
+				</button>
+			</a>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		</div>
+	  </div>
+	</div>
+</div>
+</div>
+
+	<!-- Weather Dashboard -->
+	<div class="modal fade" id="weather" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" style="max-width:700px;" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title" id="exampleModalLabel">Weather Dashbaord</h5>
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-md-6" style="max-height:350px; overflow:hidden;">
+						<img class="about-4" src="assets/images/weather-screenshot-1.png" alt="8-bit bartender">
+					</div>
+					<div class="col-md-6">
+						<h3>How to Use:</h3>
+							<p>Weather Dashboard uses the openweathermap.org API to search for a city and return weather data for that city. Included in this data is the current temperature, humidity, wind speed, and UV Index, as well as a 5-day forecast of the same info. Moment.js is used for dates and up to 8 cities are saved to have their weather easily refreshed.</p>
+					</div>
+				</div>
+				<a href="https://diembe.github.io/Weather-Dashboard/">
+					<button type="button" class="btn btn-primary" style="margin-right:auto; margin-left:auto; display:block; margin-top:30px; margin-bottom:30px;">
+						Try it out here
+					</button>
+				</a>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
     <!-- Footer -->    
     <footer class="sticky-nav navbar navbar-expand-lg navbar-dark bg-dark p-no-margin-bot footer-justify footer-1">
         <p class="footer-padding">Made by Dave Bean</p>
